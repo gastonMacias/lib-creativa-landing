@@ -1,12 +1,49 @@
-# React + Vite
+# Landing - Librería Creativa Valky 📚✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page desarrollada con React + Vite para presentar de forma atractiva y persuasiva el ecommerce ficticio **Librería Creativa Valky**, una tienda online enfocada en productos creativos, escolares y artísticos.
 
-Currently, two official plugins are available:
+## 🌐 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[👉 Ver sitio en línea]()
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Objetivo
+
+Diseñar una **landing promocional** enfocada en la conversión de usuarios, destacando los beneficios, productos y propuesta visual de la librería.
+
+---
+
+## 🛠 Tecnologías utilizadas
+
+- ⚛️ React + Vite
+- 🎨 CSS 
+- 💻 HTML semántico
+- ☁️ Deploy: Vercel
+
+---
+
+## ✨ Características
+
+- Sección **hero** con llamado a la acción
+- Beneficios destacados del ecommerce
+- Cards con productos destacados
+- Testimonios de clientes ficticios
+- Botones de navegación hacia la tienda
+- Diseño **responsive** para dispositivos móviles
+
+---
+
+## 📸 Capturas
+
+*(Podés agregar capturas cuando termines el diseño visual)*
+
+---
+
+## 🚀 Instalación local
+
+```bash
+git clone https://github.com/gastonMacias/lib-creativa-landing.git
+cd lib-creativa-landing
+npm install
+npm run dev
