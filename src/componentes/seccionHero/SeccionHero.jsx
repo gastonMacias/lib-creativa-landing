@@ -8,7 +8,7 @@ const SeccionHero = () => {
                 <img className="hero__imgFondo" src="/imagenes/gatitoFondo.jpg" alt="fondo gatito" />
                 <h1 className="hero__titulo">Libreria Creativa VALKY</h1>
                 <span className="hero__span">Bienvenido a Valky: Libros, arte y creatividad en un solo lugar.</span>
-                <button className="hero__button"><a href="">Ir al market</a></button>
+                <button className="hero__button"><a href="https://proyecto-valky.vercel.app/" target_blank>Ir al market</a></button>
             </section>
         </>
     )
