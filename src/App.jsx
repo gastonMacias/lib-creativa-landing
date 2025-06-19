@@ -1,6 +1,7 @@
 
 import './App.css'
 import Navbar from './componentes/navbar/Navbar'
+import SeccionBeneficios from './componentes/seccionBeneficios/SeccionBeneficios'
 import SeccionHero from './componentes/seccionHero/SeccionHero'
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <SeccionHero />
+      <SeccionBeneficios />
     </>
   )
 }
