@@ -51,7 +51,12 @@
     border-radius: 10px;
     background-color: deeppink;
     color: white;
+    cursor: pointer;
     font-weight: bold;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
     text-transform: uppercase;
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -61,14 +66,6 @@
     background-color: #c51172;
 }
 
-.hero__button a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-family: "Atkinson Hyperlegible Next", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-variant: normal;
-}
 
 @keyframes fadeInUp {
     0% {
