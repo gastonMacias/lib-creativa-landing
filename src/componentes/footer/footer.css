@@ -1,0 +1,23 @@
+.section__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: deeppink;
+    color: white;
+    height: 10rem;
+}
+
+.footer__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.footer__text {
+    text-transform: uppercase;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    padding: 5px;
+}
