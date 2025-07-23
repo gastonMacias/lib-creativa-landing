@@ -1,0 +1,72 @@
+.section__productos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100dvh;
+}
+
+
+.productos__h3 {
+    text-transform: uppercase;
+    font-family: "The Girl Next Door", cursive;
+    font-size: 4rem;
+    color: deeppink;
+    margin-bottom: 3rem;
+}
+
+.productos__tarjetas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.tarjeta {
+    border: 3px solid deeppink;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 15rem;
+    height: auto;
+    width: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px 5px #FF3DFE;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tarjeta:hover {
+    transform: scale(1.02);
+}
+
+.tarjeta__titulo h4{
+    font-family: "The Girl Next Door", cursive;
+    color: deeppink;
+    font-size: 2rem;
+}
+
+.tarjeta__lista {
+    /* display: none; */
+    border: 1px solid deeppink;
+    border-radius: 5px;
+    padding: 40px 25px;
+}
+
+.tarjeta__item {
+    padding: 5px 0px;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+}
+
+.tarjeta__boton {
+    margin-top: 15px;
+}
+
+.tarjeta__boton button{
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    padding: 5px 30px;
+    border-radius: 5px;
+    background: #FF3DFE;
+    color: white;
+}
