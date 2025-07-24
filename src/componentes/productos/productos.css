@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100dvh;
+    min-height: 100dvh;
 }
 
 
@@ -53,6 +53,7 @@
     border-radius: 5px;
     padding: 40px 25px;
     width: 15rem;
+    list-style-type: none;
 }
 
 .tarjeta__item {
@@ -70,4 +71,29 @@
     border-radius: 5px;
     background: #FF3DFE;
     color: white;
+}
+
+
+@media (max-width: 768px) {
+     .section__productos {
+        text-align: center;
+        min-height: auto;
+        padding: 60px 20px;
+    }
+
+    .productos__h3 {
+        text-align: center;
+        font-size: 3rem;
+        letter-spacing: 5px;
+        line-height: 4.5rem;
+    }
+
+    .productos__tarjetas {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .tarjeta__lista {
+        padding: 20px 15px;
+    }
 }
