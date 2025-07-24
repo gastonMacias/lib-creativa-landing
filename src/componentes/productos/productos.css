@@ -52,6 +52,7 @@
     border: 1px solid deeppink;
     border-radius: 5px;
     padding: 40px 25px;
+    width: 15rem;
 }
 
 .tarjeta__item {
