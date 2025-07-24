@@ -29,9 +29,9 @@ const Productos = () => {
                     </div>
                     <div className="tarjeta__contenido">
                         <ul className="tarjeta__lista">
-                            <li className="tarjeta__item">Agendas personalizadas</li>
-                            <li className="tarjeta__item">Libros para colorear</li>
-                            <li className="tarjeta__item">Stickers</li>
+                            <li className="tarjeta__item">Agendas</li>
+                            <li className="tarjeta__item">Calendarios</li>
+                            <li className="tarjeta__item">Tablas</li>
                         </ul>
                     </div>
                     <div className="tarjeta__boton">
@@ -45,9 +45,9 @@ const Productos = () => {
                     </div>
                     <div className="tarjeta__contenido">
                         <ul className="tarjeta__lista">
-                            <li className="tarjeta__item">Agendas personalizadas</li>
-                            <li className="tarjeta__item">Libros para colorear</li>
                             <li className="tarjeta__item">Stickers</li>
+                            <li className="tarjeta__item">Cuadernos</li>
+                            <li className="tarjeta__item">Recuerdos</li>
                         </ul>
                     </div>
                     <div className="tarjeta__boton">
