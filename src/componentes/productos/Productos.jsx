@@ -4,7 +4,9 @@ import "./productos.css";
 const Productos = () => {
     return (
         <section className="section__productos">
-            <h3 className="productos__h3">Nuestros Productos</h3>
+            <h3 className="productos__h3">
+                Nuestros Productos
+            </h3>
 
             <div className="productos__tarjetas">
                 <div className="tarjeta">
@@ -23,7 +25,7 @@ const Productos = () => {
                     </div>
                 </div>
 
-                 <div className="tarjeta">
+                <div className="tarjeta">
                     <div className="tarjeta__titulo">
                         <h4>Para Docentes</h4>
                     </div>
@@ -39,7 +41,7 @@ const Productos = () => {
                     </div>
                 </div>
 
-                 <div className="tarjeta">
+                <div className="tarjeta">
                     <div className="tarjeta__titulo">
                         <h4>Para Todos</h4>
                     </div>
