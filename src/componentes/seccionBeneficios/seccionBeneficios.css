@@ -6,6 +6,7 @@
     margin: 20px;
     background-color: deeppink;
     height: 100dvh;
+    border-radius: 10px;
 }
 
 .beneficios__imagen {
