@@ -1,0 +1,27 @@
+.section__nosotros {
+    min-height: 100dvh;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nosotros__h3 {
+    text-transform: uppercase;
+    font-family: "The Girl Next Door", cursive;
+    font-size: 3.5rem;
+    color: deeppink;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.nosotros__texto {
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #333;
+    text-transform: none;
+}
