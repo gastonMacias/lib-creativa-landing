@@ -3,3 +3,12 @@
     padding: 0;
     margin: 0;
 }
+
+:root {
+    --color-principal: #ff1493;
+    --color-secundario: #ffffff;
+    --color-textos: #000000;
+    --color-sombras: #FF3DFE;
+    --fuente-titulos: "The Girl Next Door", cursive;
+    --fuente-textos: "Atkinson Hyperlegible Next", sans-serif;
+}
