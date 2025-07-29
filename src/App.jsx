@@ -2,6 +2,7 @@
 import './App.css'
 import Footer from './componentes/footer/Footer'
 import Navbar from './componentes/navbar/Navbar'
+import Contacto from './componentes/contacto/Contacto'
 import Nosotros from './componentes/nosotros/Nosotros'
 import Productos from './componentes/productos/Productos'
 import Referencias from './componentes/referencias/Referencias'
@@ -19,6 +20,7 @@ function App() {
       <Productos />
       <Referencias />
       <Nosotros />
+      <Contacto />
       <Footer />
     </>
   )
