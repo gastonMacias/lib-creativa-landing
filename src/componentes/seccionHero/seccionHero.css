@@ -10,7 +10,13 @@
     position: relative;
     z-index: 1;
     padding: 2rem;
+    /* transition-duration: 2s;
+    transition-timing-function: ease; */
 }
+
+/* .seccionHero:: {
+    opacity: 1;
+} */
 
 .hero__imgFondo {
     position: absolute;
@@ -26,18 +32,19 @@
 .hero__titulo {
     font-size: 5rem;
     letter-spacing: 20px;
-    font-family: "The Girl Next Door", cursive;
+    font-family: var(--fuente-titulos);
     font-weight: 600;
     font-style: normal;
-    color: deeppink;
+    color: var(--color-principal);
     line-height: 4rem;
     z-index: 99999;
 }
 
+
 .hero__span {
     text-transform: none;
     font-size: 1.5rem;
-    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    font-family: var(--fuente-textos);
     line-height: 1.8;
     max-width: 600px;
     z-index: 99999;
@@ -49,11 +56,11 @@
     padding: 12px 45px;
     border: none;
     border-radius: 10px;
-    background-color: deeppink;
-    color: white;
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
     cursor: pointer;
     font-weight: bold;
-    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    font-family: var(--fuente-textos);
     font-weight: 400;
     font-style: normal;
     font-variant: normal;
@@ -64,7 +71,8 @@
 }
 
 .hero__button:hover {
-    background-color: #c51172;
+    background-color: var(--color-sombras);
+    color: var(--color-textos);
 }
 
 
@@ -81,7 +89,7 @@
 }
 
 .seccionHero {
-    animation: fadeInUp 1s ease forwards;
+    animation: fadeInUp 3s ease forwards;
 }
 
 @media screen and (max-width: 480px) {
