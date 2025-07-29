@@ -4,17 +4,18 @@
     justify-content: space-around;
     padding: 20px;
     margin: 20px;
-    background-color: deeppink;
+    background-color: var(--color-principal);
     height: 100dvh;
     border-radius: 10px;
 }
 
 .beneficios__imagen {
-    box-shadow: 5px 5px 15px 5px #FF3DFE;
+    box-shadow: 5px 5px 15px 5px var(--color-sombras);
     border-radius: 10px;
     max-width: 400px;
     width: 100%;
     transition: transform 0.3s ease-in-out;
+    margin: 20px 0;
 }
 
 .beneficios__imagen:hover {
@@ -30,31 +31,19 @@
     text-transform: uppercase;
     font-size: 2.5rem;
     font-family: "The Girl Next Door", cursive;
-    color: aliceblue;
+    color: var(--color-secundario);
     margin-bottom: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 4px var(--color-textos);
     transition: all 0.3s ease-in-out;
-    opacity: 0;
-    animation: fadeIn 2s ease forwards;
-    animation-delay: 0.3s;
 }
 
 .beneficios__texto {
-    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    font-family: var(--fuente-textos);
     font-size: 1.3rem;
-    color: aliceblue;
-    line-height: 1.8;
-    letter-spacing: 0.5px;
+    color: var(--color-textos);
+    line-height: 1.6;
     padding: 0 1rem;
-    opacity: 0;
-    animation: fadeIn 3s ease forwards;
-    animation-delay: 0.6s;
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
+    margin-bottom: 30px;
 }
 
 
@@ -77,9 +66,5 @@
 
     .beneficios__titulo {
         font-size: 1.8rem;
-    }
-
-    .beneficios__texto {
-        font-size: 1rem;
     }
 }
